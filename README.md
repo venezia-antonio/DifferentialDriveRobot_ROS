@@ -34,4 +34,4 @@ or
 
     $ roslaunch ddr IO_Linearization.py
 
-to assign a desired trajectory to the robot
+to assign a desired trajectory to the robot following the I/O Linearization controller based.
