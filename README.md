@@ -5,19 +5,19 @@ You can use either a keybord-commands or impose a desired trajectory to move the
 
 From the terminal run:
 
-$ roslaunch ddr gazebo.launch
+    $ roslaunch ddr gazebo.launch
 
 to launch Gazebo and the empty_world.world
 
 You can spawn the robot by launching in a different terminal:
 
-$ roslaunch ddr spawn_ddr.launch
+    $ roslaunch ddr spawn_ddr.launch
 
 -------------------------------------------------------------
 
 In a different terminal, launch:
 
-$ roslaunch ddr controlKeyboard.launch
+    $ roslaunch ddr controlKeyboard.launch
 
 to control the robot by using the keyboard
 
@@ -32,6 +32,6 @@ NB: q -> stop
     d -> turn right
 or
 
-$ roslaunch ddr IO_Linearization.py
+    $ roslaunch ddr IO_Linearization.py
 
 to assign a desired trajectory to the robot
