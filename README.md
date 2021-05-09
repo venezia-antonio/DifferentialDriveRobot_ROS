@@ -13,7 +13,9 @@ You can spawn the robot by launching in a different terminal:
 
 $ roslaunch ddr spawn_ddr.launch
 
-In a different terminal, launch
+-------------------------------------------------------------
+
+In a different terminal, launch:
 
 $ roslaunch ddr controlKeyboard.launch
 
@@ -28,3 +30,8 @@ NB: q -> stop
     a -> turn left
     
     d -> turn right
+or
+
+$ roslaunch ddr IO_Linearization.py
+
+to assign a desired trajectory to the robot
