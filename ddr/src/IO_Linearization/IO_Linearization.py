@@ -28,8 +28,10 @@ def getInputVelocity(tmp):
     b = 0.15
     
     # Control Action
-    u1 = xd_dot + k1*(x_d - x)
-    u2 = yd_dot + k2*(y_d - y)
+    y1 = x + b*np.cos(theta)
+    y2 = y + b*np.sin(theta)
+    u1 = xd_dot + k1*(x_d - y1)
+    u2 = yd_dot + k2*(y_d - y2)
 
     # Kinematic inversion
     v = np.cos(theta)*u1 + np.sin(theta)*u2
