@@ -37,6 +37,6 @@ or
 
 to assign a desired trajectory to the robot following the I/O Linearization controller based, using a service from gazebo GetModelState or a subscriber to the topic 
 
-- /gazebo/model_states
+    /gazebo/model_states
 
 with a throttler node to slow down the publishing rate.
