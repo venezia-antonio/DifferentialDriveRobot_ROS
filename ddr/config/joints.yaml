@@ -1,8 +1,0 @@
-type : "joint_state_controller/JointStateController"
-publish_rate: 50
-
-type : "velocity_controllers/JointGroupVelocityController"
-joints : 
- - front_left_wheel_joint
- - front_right_wheel_joint
-
