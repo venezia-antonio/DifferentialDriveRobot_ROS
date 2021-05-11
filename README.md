@@ -35,6 +35,8 @@ or
     $ roslaunch ddr IO_Linearization_service.launch
     $ roslaunch ddr IO_Linearization_thottler.launch
 
-to assign a desired trajectory to the robot following the I/O Linearization controller based, using a service from gazebo GetModelState or a subscriber to the topic
-    /gazebo/model_states
+to assign a desired trajectory to the robot following the I/O Linearization controller based, using a service from gazebo GetModelState or a subscriber to the topic 
+
+- /gazebo/model_states
+
 with a throttler node to slow down the publishing rate.
