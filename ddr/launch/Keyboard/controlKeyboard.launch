@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+ <!-- Spawn the controller manager following the joints.yaml controller type -->
+  <rosparam command="load" file="$(find ddr)/config/joints.yaml" ns="ddr_joint_state_controller" />
+  <node name="ddr_controller_spawner" pkg="controller_manager" type="spawner" args="ddr_joint_state_controller" />
+
+  <node name="controlKeyboard" type = "control_from_keyboard.py" pkg = "ddr"/>
+  <node name="inputKeyboard" type = "inputKeyboard.py" pkg = "ddr"/>
+</launch>
