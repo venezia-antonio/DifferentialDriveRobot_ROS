@@ -32,6 +32,6 @@ NB: q -> stop
     d -> turn right
 or
 
-    $ roslaunch ddr IO_Linearization.py
+    $ roslaunch ddr IO_Linearization.launch
 
 to assign a desired trajectory to the robot following the I/O Linearization controller based.
